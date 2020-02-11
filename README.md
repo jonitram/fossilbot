@@ -1,4 +1,4 @@
-# Pokemon Box Fossil Restoration Bot
+# Pokemon Sword and Shield Fossil Restoration Bot
 
 As long as the in-game preconditions are met before plugging in the device, plugging the Arduino directly into the Switch through a USB Type B to USB Type C Cable should enable the bot to start restoring the specified number of fossil pokemon
 
