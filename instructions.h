@@ -8,7 +8,7 @@
 #endif
 
 // change this value to alter how many fossils are restored
-static const uint16_t fossils = 3;
+static const uint16_t fossils = 319;
 
 typedef enum {
     move_up,
@@ -35,45 +35,45 @@ static const command_t wake_up_hang[] = {
 static const command_t restore_fossil_steps[] = {
 
     { hang, 10 },
-    { press_b, 5 },
+    { press_a, 5 },
     { hang, 10 },
 
     { press_a, 5 },
-    { hang, 40 },
-    { press_a, 5 },
     { hang, 50 },
+    { press_a, 5 },
+    { hang, 60 },
 
     // select fossil for dracovish
     { move_down, 5 },
     { hang, 5 },
 
     { press_a, 5 },
-    { hang, 40 },
+    { hang, 50 },
     { press_a, 5 },
-    { hang, 40 },
+    { hang, 50 },
+    { press_a, 5 },
+    { hang, 50 },
+
+    { press_a, 5 },
+    { hang, 210 },
+
+    { press_a, 5 },
+    { hang, 50 },
+    { press_a, 5 },
+    { hang, 50 },
     { press_a, 5 },
     { hang, 40 },
 
     { press_a, 5 },
-    { hang, 180 },
+    { hang, 230 },
 
     { press_a, 5 },
-    { hang, 40 },
-    { press_a, 5 },
-    { hang, 40 },
-    { press_a, 5 },
-    { hang, 30 },
-
-    { press_a, 5 },
-    { hang, 200 },
-
-    { press_a, 5 },
-    { hang, 90 },
+    { hang, 100 },
 
     { press_b, 5 },
-    { hang, 40 },
+    { hang, 60 },
     { press_a, 5 },
-    { hang, 30 }
+    { hang, 50 }
 
 };
 
