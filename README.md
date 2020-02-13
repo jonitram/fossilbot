@@ -52,10 +52,10 @@ As long as the in-game preconditions are met before plugging in the device, plug
 
     `sudo dfu-programmer atmega16u2 reset`
 
+- You can also use the `flash.sh` shell script (either through the command `sh flash.sh` or `./flash.sh`) which makes the code and runs all 3 of the above `dfu-programmer` commands to flash the code onto the Arduino once it is in DFU mode
+
 - If you receive this error:
 
     `dfu-programmer: no device present.`
 
     but your Arduino is plugged in and the lights are on then you most likely need to put the Arduino into DFU mode by bridging its reset and ground pins
-
-- You can also use the `flash.sh` shell script (either through the command `sh flash.sh` or `./flash.sh`) which makes the code and runs all 3 of the above `dfu-programmer` commands to flash the code onto the Arduino once it is in DFU mode
